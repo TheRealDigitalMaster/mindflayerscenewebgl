@@ -1,1 +1,972 @@
-{"version":0.5,"uid":"@TREE-6c3ed4-6d4-1c4147d-2","object_class":"Scene","external_repository":null,"extra":{"editor":{"selected_node":"@NODE-6c3ed4-346d4-1032b92-1c"},"viewport_layout":{"mode":1,"viewports":[{"name":"perspective","viewport":[0,0,1,1],"render_settings":null,"editor_camera":{"object_class":"Camera","uid":"@CAM6c3ed4-a78-12c9e46-9","layers":255,"enabled":true,"type":1,"eye":[-414.26837158203125,1284.804931640625,4383.78662109375],"center":[39.9995002746582,15.322808265686035,603.0675659179688],"up":[0,1,0],"near":0.1,"far":10000,"fov":45,"aspect":1,"orthographic":[-1,1,-1,1],"background_color":[0,0,0,1],"frustum_size":50,"viewport":[0,0,1,1],"render_to_texture":false,"frame":null,"show_frame":true,"clear_color":true,"clear_depth":true},"scene_camera":null}]}},"root":{"object_class":"SceneNode","name":"root","uid":"@NODE-6c3ed4-346d4-1032b92-1c","layers":3,"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"children":[{"object_class":"SceneNode","name":"node_1","uid":"@NODE-6c3ed4-3698a-10de36d-20","layers":3,"material":{"uid":"@MAT-6c3ed4-6acf0-198c20f-29","uvs_matrix":[1,0,0,0,1,0,0,0,1],"textures":{"color":{"texture":"texture_917.png","uvs":0,"wrap":0,"minFilter":0,"magFilter":0,"missing":"white","_must_update":true,"index":0}},"flags":{"alpha_test":false,"alpha_test_shadows":false,"two_sided":false,"flip_normals":false,"depth_test":true,"depth_write":true,"ignore_lights":false,"cast_shadows":true,"receive_shadows":true,"ignore_frustum":false},"color":[0,0,0],"opacity":1,"queue":-1,"render_state":{"front_face":2305,"cull_face":true,"cull_face_mode":0,"depth_test":true,"depth_mask":true,"depth_func":513,"depth_range":[0,0],"blend":false,"blendFunc0":770,"blendFunc1":771,"colorMask0":true,"colorMask1":true,"colorMask2":true,"colorMask3":true,"stencil_test":false,"stencil_mask":255,"skip_blend":false,"skip_depth":false,"skip_stencil":false,"stencil_func_func":519,"stencil_func_ref":0,"stencil_func_mask":255,"stencil_op_sfail":7680,"stencil_op_dpfail":7680,"stencil_op_dppass":7680,"flags":0},"blend_mode":2,"diffuse":[1,1,1],"ambient":[1,1,1],"emissive":[0.10999999940395355,0.10999999940395355,0.10999999940395355,0],"specular_on_top":false,"specular_on_alpha":false,"backlight_factor":0,"translucency":0,"reflection_factor":1,"reflection_fresnel":0.5962793969093103,"reflection_specular":false,"velvet":[0.5,0.5,0.5],"velvet_exp":0,"velvet_additive":false,"normalmap_factor":1,"normalmap_tangent":true,"bumpmap_factor":1,"displacementmap_factor":0.1,"use_scene_ambient":true,"point_size":1,"extra":[0.3100000023841858,0.03099999949336052,0.03099999949336052,1],"needsUpdate":true,"detail_factor":0,"detail_scale":[10,10],"emissive_extra":0,"specular_factor":0.2948530614376068,"specular_gloss":20,"renderShadowInstance":null,"material_class":"StandardMaterial"},"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-3698b-157cfa8-21","position":[0,0,0],"rotation":[0,0,0,1],"scaling":[54.860870361328125,50.22234344482422,63.99769592285156],"matrix":[54.860870361328125,0,0,0,0,50.22234344482422,0,0,0,0,63.99769592285156,0,0,0,0,1]}],["MeshRenderer",{"object_class":"MeshRenderer","enabled":true,"uid":"@COMP-6c3ed4-3698c-1c26d54-23","mesh":"mind_flayer.obj.wbin","lod_mesh":"mind_flayer.obj.wbin","submaterials":[]}]]},{"object_class":"SceneNode","name":"node_2","uid":"@NODE-6c3ed4-f2633-1ed2b1c-70","layers":3,"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-f2633-15666f0-71","position":[20.190000534057617,3781.468017578125,603.0680541992188],"rotation":[-0.7071067690849304,0,0,0.7071067690849304],"scaling":[109.92239379882812,78.01087951660156,1.9791451692581177],"matrix":[109.92239379882812,0,0,0,0,0.0000026701986826083157,-78.01087188720703,0,0,1.9791450500488281,6.774325100877832e-8,0,20.190000534057617,3781.468017578125,603.0680541992188,1]}],["Sprite",{"enabled":true,"texture":"04-_web_stories_portal_cm_materia_stranger_things_03.06.jpg","blend_mode":3,"frame":null,"flip_x":false,"filtering":true,"size":[100,100],"area":[0,0,1,1],"atlas":null,"uid":"@COMP-6c3ed4-f5c72-1dcc98d-72","object_class":"Sprite"}],["Light",{"enabled":true,"illuminated_layers":255,"near":1,"far":500,"angle":45,"angle_end":60,"constant_diffuse":false,"use_specular":true,"att_start":0,"att_end":1000,"attenuation_type":2,"offset":0,"projective_texture":null,"use_target":false,"intensity":2,"frustum_size":50,"extra_texture":null,"type":1,"position":[20.190000534057617,3781.468017578125,603.0680541992188],"target":[20.190000534057617,3779.48876953125,603.0680541992188],"extra":[0,0,0,0],"up":[20.190000534057617,3781.468017578125,525.0571899414062],"color":[0.8299999833106995,0,0],"spot_cone":true,"cast_shadows":false,"uid":"@COMP-6c3ed4-1e4c54-15cf701-c2","object_class":"Light"}]]},{"object_class":"SceneNode","name":"node_3","uid":"@NODE-6c3ed4-1ae454-1f17e14-a5","layers":3,"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-1ae454-11050c0-a6","position":[39.9995002746582,1867.96142578125,4531.70849609375],"rotation":[0,0,0,1],"scaling":[116.36333465576172,46.04878616333008,2.0387609004974365],"matrix":[116.36333465576172,0,0,0,0,46.04878616333008,0,0,0,0,2.0387609004974365,0,39.9995002746582,1867.96142578125,4531.70849609375,1]}],["Sprite",{"enabled":true,"texture":"f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg","blend_mode":3,"frame":null,"flip_x":false,"filtering":true,"size":[100,100],"area":[0,0,1,1],"atlas":null,"uid":"@COMP-6c3ed4-1afd80-12c2d15-a7","object_class":"Sprite"}]]},{"object_class":"SceneNode","name":"node_3","uid":"@NODE-6c3ed4-1c51d3-18316a9-ac","layers":3,"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-1c51d2-1eefb20-ab","position":[5126.0478515625,1867.96142578125,2184.32470703125],"rotation":[0,0.7071067690849304,0,0.7071067690849304],"scaling":[116.36333465576172,46.04878616333008,2.0387609004974365],"matrix":[0.000003982947418990079,0,-116.36332702636719,0,0,46.04878616333008,0,0,2.0387606620788574,0,6.97838160590436e-8,0,5126.0478515625,1867.96142578125,2184.32470703125,1]}],["Sprite",{"enabled":true,"texture":"f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg","blend_mode":3,"frame":null,"flip_x":false,"filtering":true,"size":[100,100],"area":[0,0,1,1],"atlas":null,"uid":"@COMP-6c3ed4-1c51e0-1885709-ad","object_class":"Sprite"}]]},{"object_class":"SceneNode","name":"node_3","uid":"@NODE-6c3ed4-1c8e8e-1481357-b2","layers":3,"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-1c8e8e-14a594b-b1","position":[39.9995002746582,1867.96142578125,-1962.4970703125],"rotation":[0,0,0,1],"scaling":[116.36333465576172,46.04878616333008,2.0387609004974365],"matrix":[116.36333465576172,0,0,0,0,46.04878616333008,0,0,0,0,2.0387609004974365,0,39.9995002746582,1867.96142578125,-1962.4970703125,1]}],["Sprite",{"enabled":true,"texture":"f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg","blend_mode":3,"frame":null,"flip_x":false,"filtering":true,"size":[100,100],"area":[0,0,1,1],"atlas":null,"uid":"@COMP-6c3ed4-1c8e8e-1f589cd-b3","object_class":"Sprite"}]]},{"object_class":"SceneNode","name":"node_3","uid":"@NODE-6c3ed4-1d11c6-1317bcd-b8","layers":3,"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-1d11c6-1929e27-b7","position":[-2832.60107421875,1867.96142578125,2184.32470703125],"rotation":[0,0.7071067690849304,0,0.7071067690849304],"scaling":[116.36333465576172,46.04878616333008,2.0387609004974365],"matrix":[0.000003982947418990079,0,-116.36332702636719,0,0,46.04878616333008,0,0,2.0387606620788574,0,6.97838160590436e-8,0,-2832.60107421875,1867.96142578125,2184.32470703125,1]}],["Sprite",{"enabled":true,"texture":"f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg","blend_mode":3,"frame":null,"flip_x":false,"filtering":true,"size":[100,100],"area":[0,0,1,1],"atlas":null,"uid":"@COMP-6c3ed4-1d11c6-1b8af5a-b9","object_class":"Sprite"}]]},{"object_class":"SceneNode","name":"node_2","uid":"@NODE-6c3ed4-1dbd6e-1958969-be","layers":3,"flags":{"visible":true,"is_static":false,"selectable":true,"locked":false},"components":[["Transform",{"object_class":"Transform","uid":"@COMP-6c3ed4-1dbd6d-1a51da8-bd","position":[20.190000534057617,0,603.0679931640625],"rotation":[-0.7071067690849304,0,0,0.7071067690849304],"scaling":[109.92239379882812,78.01087951660156,1.9791451692581177],"matrix":[109.92239379882812,0,0,0,0,0.0000026701986826083157,-78.01087188720703,0,0,1.9791450500488281,6.774325100877832e-8,0,20.190000534057617,0,603.0679931640625,1]}],["Sprite",{"enabled":true,"texture":"360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg","blend_mode":3,"frame":null,"flip_x":false,"filtering":true,"size":[100,100],"area":[0,0,1,1],"atlas":null,"uid":"@COMP-6c3ed4-1dbd6f-1e994ff-bf","object_class":"Sprite"}]]}],"components":[["GlobalInfo",{"ambient_color":[0.20000000298023224,0.20000000298023224,0.20000000298023224],"irradiance_color":[1,1,1],"irradiance":null,"textures":{},"render_settings":null,"uid":"@COMP-6c3ed4-346d4-1f5bb94-1d","object_class":"GlobalInfo"}],["Camera",{"object_class":"Camera","uid":"@COMP-6c3ed4-346d4-1eb0760-1e","layers":3,"enabled":true,"type":1,"eye":[0,62.224998474121094,2944.231689453125],"center":[34.5359992980957,1348.2099609375,836.8280029296875],"up":[0,1,0],"near":0.1,"far":16615,"fov":45,"aspect":1,"orthographic":[-1,1,-1,1],"background_color":[0,0,0,1],"frustum_size":50,"viewport":[0,0,1,1],"render_to_texture":false,"frame":null,"show_frame":true,"clear_color":true,"clear_depth":true}],["Light",{"enabled":true,"illuminated_layers":255,"near":1,"far":500,"angle":45,"angle_end":60,"constant_diffuse":false,"use_specular":true,"att_start":0,"att_end":11775.16,"attenuation_type":2,"offset":0,"projective_texture":null,"use_target":false,"intensity":2,"frustum_size":50,"extra_texture":null,"type":2,"position":[-23.386999130249023,421.98907470703125,1088.8270263671875],"target":[-0.6259999871253967,531.2979736328125,438.53900146484375],"extra":[0,0,0,0],"up":[0,1,0],"color":[0.3700000047683716,0.3700000047683716,0.3700000047683716],"spot_cone":true,"cast_shadows":false,"uid":"@COMP-6c3ed4-346d4-1e981b3-1f","object_class":"Light"}],["CameraController",{"enabled":true,"no_button_action":0,"left_button_action":5,"right_button_action":10,"middle_button_action":10,"mouse_wheel_action":0,"keyboard_walk":true,"keyboard_walk_plane":true,"lock_mouse":true,"rot_speed":1,"walk_speed":10,"wheel_speed":1,"smooth":true,"render_crosshair":false,"uid":"@COMP-6c3ed4-cd92a-1a633bc-37","object_class":"CameraController"}]]},"layer_names":["main","secondary"],"global_scripts":[],"external_scripts":[],"preloaded_resources":{},"texture_atlas":null,"local_resources":{}}
+{
+	"version": 0.5,
+	"uid": "@TREE-6c3ed4-6d4-1c4147d-2",
+	"object_class": "Scene",
+	"external_repository": null,
+	"extra": {
+		"editor": {
+			"selected_node": "@NODE-6c3ed4-346d4-1032b92-1c"
+		},
+		"viewport_layout": {
+			"mode": 1,
+			"viewports": [
+				{
+					"name": "perspective",
+					"viewport": [
+						0,
+						0,
+						1,
+						1
+					],
+					"render_settings": null,
+					"editor_camera": {
+						"object_class": "Camera",
+						"uid": "@CAM6c3ed4-a78-12c9e46-9",
+						"layers": 255,
+						"enabled": true,
+						"type": 1,
+						"eye": [
+							-414.26837158203125,
+							1284.804931640625,
+							4383.78662109375
+						],
+						"center": [
+							39.9995002746582,
+							15.322808265686035,
+							603.0675659179688
+						],
+						"up": [
+							0,
+							1,
+							0
+						],
+						"near": 0.1,
+						"far": 10000,
+						"fov": 45,
+						"aspect": 1,
+						"orthographic": [
+							-1,
+							1,
+							-1,
+							1
+						],
+						"background_color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"frustum_size": 50,
+						"viewport": [
+							0,
+							0,
+							1,
+							1
+						],
+						"render_to_texture": false,
+						"frame": null,
+						"show_frame": true,
+						"clear_color": true,
+						"clear_depth": true
+					},
+					"scene_camera": null
+				}
+			]
+		}
+	},
+	"root": {
+		"object_class": "SceneNode",
+		"name": "root",
+		"uid": "@NODE-6c3ed4-346d4-1032b92-1c",
+		"layers": 3,
+		"flags": {
+			"visible": true,
+			"is_static": false,
+			"selectable": true,
+			"locked": false
+		},
+		"children": [
+			{
+				"object_class": "SceneNode",
+				"name": "node_1",
+				"uid": "@NODE-6c3ed4-3698a-10de36d-20",
+				"layers": 3,
+				"material": {
+					"uid": "@MAT-6c3ed4-6acf0-198c20f-29",
+					"uvs_matrix": [
+						1,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1
+					],
+					"textures": {
+						"color": {
+							"texture": "texture_917.png",
+							"uvs": 0,
+							"wrap": 0,
+							"minFilter": 0,
+							"magFilter": 0,
+							"missing": "white",
+							"_must_update": true,
+							"index": 0
+						}
+					},
+					"flags": {
+						"alpha_test": false,
+						"alpha_test_shadows": false,
+						"two_sided": false,
+						"flip_normals": false,
+						"depth_test": true,
+						"depth_write": true,
+						"ignore_lights": false,
+						"cast_shadows": true,
+						"receive_shadows": true,
+						"ignore_frustum": false
+					},
+					"color": [
+						0,
+						0,
+						0
+					],
+					"opacity": 1,
+					"queue": -1,
+					"render_state": {
+						"front_face": 2305,
+						"cull_face": true,
+						"cull_face_mode": 0,
+						"depth_test": true,
+						"depth_mask": true,
+						"depth_func": 513,
+						"depth_range": [
+							0,
+							0
+						],
+						"blend": false,
+						"blendFunc0": 770,
+						"blendFunc1": 771,
+						"colorMask0": true,
+						"colorMask1": true,
+						"colorMask2": true,
+						"colorMask3": true,
+						"stencil_test": false,
+						"stencil_mask": 255,
+						"skip_blend": false,
+						"skip_depth": false,
+						"skip_stencil": false,
+						"stencil_func_func": 519,
+						"stencil_func_ref": 0,
+						"stencil_func_mask": 255,
+						"stencil_op_sfail": 7680,
+						"stencil_op_dpfail": 7680,
+						"stencil_op_dppass": 7680,
+						"flags": 0
+					},
+					"blend_mode": 2,
+					"diffuse": [
+						1,
+						1,
+						1
+					],
+					"ambient": [
+						1,
+						1,
+						1
+					],
+					"emissive": [
+						0.10999999940395355,
+						0.10999999940395355,
+						0.10999999940395355,
+						0
+					],
+					"specular_on_top": false,
+					"specular_on_alpha": false,
+					"backlight_factor": 0,
+					"translucency": 0,
+					"reflection_factor": 1,
+					"reflection_fresnel": 0.5962793969093103,
+					"reflection_specular": false,
+					"velvet": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"velvet_exp": 0,
+					"velvet_additive": false,
+					"normalmap_factor": 1,
+					"normalmap_tangent": true,
+					"bumpmap_factor": 1,
+					"displacementmap_factor": 0.1,
+					"use_scene_ambient": true,
+					"point_size": 1,
+					"extra": [
+						0.3100000023841858,
+						0.03099999949336052,
+						0.03099999949336052,
+						1
+					],
+					"needsUpdate": true,
+					"detail_factor": 0,
+					"detail_scale": [
+						10,
+						10
+					],
+					"emissive_extra": 0,
+					"specular_factor": 0.2948530614376068,
+					"specular_gloss": 20,
+					"renderShadowInstance": null,
+					"material_class": "StandardMaterial"
+				},
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-3698b-157cfa8-21",
+							"position": [
+								0,
+								0,
+								0
+							],
+							"rotation": [
+								0,
+								0,
+								0,
+								1
+							],
+							"scaling": [
+								54.860870361328125,
+								50.22234344482422,
+								63.99769592285156
+							],
+							"matrix": [
+								54.860870361328125,
+								0,
+								0,
+								0,
+								0,
+								50.22234344482422,
+								0,
+								0,
+								0,
+								0,
+								63.99769592285156,
+								0,
+								0,
+								0,
+								0,
+								1
+							]
+						}
+					],
+					[
+						"MeshRenderer",
+						{
+							"object_class": "MeshRenderer",
+							"enabled": true,
+							"uid": "@COMP-6c3ed4-3698c-1c26d54-23",
+							"mesh": "mind_flayer.obj.wbin",
+							"lod_mesh": "mind_flayer.obj.wbin",
+							"submaterials": []
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "node_2",
+				"uid": "@NODE-6c3ed4-f2633-1ed2b1c-70",
+				"layers": 3,
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-f2633-15666f0-71",
+							"position": [
+								20.190000534057617,
+								3781.468017578125,
+								603.0680541992188
+							],
+							"rotation": [
+								-0.7071067690849304,
+								0,
+								0,
+								0.7071067690849304
+							],
+							"scaling": [
+								109.92239379882812,
+								78.01087951660156,
+								1.9791451692581177
+							],
+							"matrix": [
+								109.92239379882812,
+								0,
+								0,
+								0,
+								0,
+								0.0000026701986826083157,
+								-78.01087188720703,
+								0,
+								0,
+								1.9791450500488281,
+								6.774325100877832e-8,
+								0,
+								20.190000534057617,
+								3781.468017578125,
+								603.0680541992188,
+								1
+							]
+						}
+					],
+					[
+						"Sprite",
+						{
+							"enabled": true,
+							"texture": "04-_web_stories_portal_cm_materia_stranger_things_03.06.jpg",
+							"blend_mode": 3,
+							"frame": null,
+							"flip_x": false,
+							"filtering": true,
+							"size": [
+								100,
+								100
+							],
+							"area": [
+								0,
+								0,
+								1,
+								1
+							],
+							"atlas": null,
+							"uid": "@COMP-6c3ed4-f5c72-1dcc98d-72",
+							"object_class": "Sprite"
+						}
+					],
+					[
+						"Light",
+						{
+							"enabled": true,
+							"illuminated_layers": 255,
+							"near": 1,
+							"far": 500,
+							"angle": 45,
+							"angle_end": 60,
+							"constant_diffuse": false,
+							"use_specular": true,
+							"att_start": 0,
+							"att_end": 1000,
+							"attenuation_type": 2,
+							"offset": 0,
+							"projective_texture": null,
+							"use_target": false,
+							"intensity": 2,
+							"frustum_size": 50,
+							"extra_texture": null,
+							"type": 1,
+							"position": [
+								20.190000534057617,
+								3781.468017578125,
+								603.0680541992188
+							],
+							"target": [
+								20.190000534057617,
+								3779.48876953125,
+								603.0680541992188
+							],
+							"extra": [
+								0,
+								0,
+								0,
+								0
+							],
+							"up": [
+								20.190000534057617,
+								3781.468017578125,
+								525.0571899414062
+							],
+							"color": [
+								0.8299999833106995,
+								0,
+								0
+							],
+							"spot_cone": true,
+							"cast_shadows": false,
+							"uid": "@COMP-6c3ed4-1e4c54-15cf701-c2",
+							"object_class": "Light"
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "node_3",
+				"uid": "@NODE-6c3ed4-1ae454-1f17e14-a5",
+				"layers": 3,
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-1ae454-11050c0-a6",
+							"position": [
+								39.9995002746582,
+								1867.96142578125,
+								4531.70849609375
+							],
+							"rotation": [
+								0,
+								0,
+								0,
+								1
+							],
+							"scaling": [
+								116.36333465576172,
+								46.04878616333008,
+								2.0387609004974365
+							],
+							"matrix": [
+								116.36333465576172,
+								0,
+								0,
+								0,
+								0,
+								46.04878616333008,
+								0,
+								0,
+								0,
+								0,
+								2.0387609004974365,
+								0,
+								39.9995002746582,
+								1867.96142578125,
+								4531.70849609375,
+								1
+							]
+						}
+					],
+					[
+						"Sprite",
+						{
+							"enabled": true,
+							"texture": "f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
+							"blend_mode": 3,
+							"frame": null,
+							"flip_x": false,
+							"filtering": true,
+							"size": [
+								100,
+								100
+							],
+							"area": [
+								0,
+								0,
+								1,
+								1
+							],
+							"atlas": null,
+							"uid": "@COMP-6c3ed4-1afd80-12c2d15-a7",
+							"object_class": "Sprite"
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "node_3",
+				"uid": "@NODE-6c3ed4-1c51d3-18316a9-ac",
+				"layers": 3,
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-1c51d2-1eefb20-ab",
+							"position": [
+								5126.0478515625,
+								1867.96142578125,
+								2184.32470703125
+							],
+							"rotation": [
+								0,
+								0.7071067690849304,
+								0,
+								0.7071067690849304
+							],
+							"scaling": [
+								116.36333465576172,
+								46.04878616333008,
+								2.0387609004974365
+							],
+							"matrix": [
+								0.000003982947418990079,
+								0,
+								-116.36332702636719,
+								0,
+								0,
+								46.04878616333008,
+								0,
+								0,
+								2.0387606620788574,
+								0,
+								6.97838160590436e-8,
+								0,
+								5126.0478515625,
+								1867.96142578125,
+								2184.32470703125,
+								1
+							]
+						}
+					],
+					[
+						"Sprite",
+						{
+							"enabled": true,
+							"texture": "f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
+							"blend_mode": 3,
+							"frame": null,
+							"flip_x": false,
+							"filtering": true,
+							"size": [
+								100,
+								100
+							],
+							"area": [
+								0,
+								0,
+								1,
+								1
+							],
+							"atlas": null,
+							"uid": "@COMP-6c3ed4-1c51e0-1885709-ad",
+							"object_class": "Sprite"
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "node_3",
+				"uid": "@NODE-6c3ed4-1c8e8e-1481357-b2",
+				"layers": 3,
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-1c8e8e-14a594b-b1",
+							"position": [
+								39.9995002746582,
+								1867.96142578125,
+								-1962.4970703125
+							],
+							"rotation": [
+								0,
+								0,
+								0,
+								1
+							],
+							"scaling": [
+								116.36333465576172,
+								46.04878616333008,
+								2.0387609004974365
+							],
+							"matrix": [
+								116.36333465576172,
+								0,
+								0,
+								0,
+								0,
+								46.04878616333008,
+								0,
+								0,
+								0,
+								0,
+								2.0387609004974365,
+								0,
+								39.9995002746582,
+								1867.96142578125,
+								-1962.4970703125,
+								1
+							]
+						}
+					],
+					[
+						"Sprite",
+						{
+							"enabled": true,
+							"texture": "f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
+							"blend_mode": 3,
+							"frame": null,
+							"flip_x": false,
+							"filtering": true,
+							"size": [
+								100,
+								100
+							],
+							"area": [
+								0,
+								0,
+								1,
+								1
+							],
+							"atlas": null,
+							"uid": "@COMP-6c3ed4-1c8e8e-1f589cd-b3",
+							"object_class": "Sprite"
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "node_3",
+				"uid": "@NODE-6c3ed4-1d11c6-1317bcd-b8",
+				"layers": 3,
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-1d11c6-1929e27-b7",
+							"position": [
+								-2832.60107421875,
+								1867.96142578125,
+								2184.32470703125
+							],
+							"rotation": [
+								0,
+								0.7071067690849304,
+								0,
+								0.7071067690849304
+							],
+							"scaling": [
+								116.36333465576172,
+								46.04878616333008,
+								2.0387609004974365
+							],
+							"matrix": [
+								0.000003982947418990079,
+								0,
+								-116.36332702636719,
+								0,
+								0,
+								46.04878616333008,
+								0,
+								0,
+								2.0387606620788574,
+								0,
+								6.97838160590436e-8,
+								0,
+								-2832.60107421875,
+								1867.96142578125,
+								2184.32470703125,
+								1
+							]
+						}
+					],
+					[
+						"Sprite",
+						{
+							"enabled": true,
+							"texture": "f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
+							"blend_mode": 3,
+							"frame": null,
+							"flip_x": false,
+							"filtering": true,
+							"size": [
+								100,
+								100
+							],
+							"area": [
+								0,
+								0,
+								1,
+								1
+							],
+							"atlas": null,
+							"uid": "@COMP-6c3ed4-1d11c6-1b8af5a-b9",
+							"object_class": "Sprite"
+						}
+					]
+				]
+			},
+			{
+				"object_class": "SceneNode",
+				"name": "node_2",
+				"uid": "@NODE-6c3ed4-1dbd6e-1958969-be",
+				"layers": 3,
+				"flags": {
+					"visible": true,
+					"is_static": false,
+					"selectable": true,
+					"locked": false
+				},
+				"components": [
+					[
+						"Transform",
+						{
+							"object_class": "Transform",
+							"uid": "@COMP-6c3ed4-1dbd6d-1a51da8-bd",
+							"position": [
+								20.190000534057617,
+								0,
+								603.0679931640625
+							],
+							"rotation": [
+								-0.7071067690849304,
+								0,
+								0,
+								0.7071067690849304
+							],
+							"scaling": [
+								109.92239379882812,
+								78.01087951660156,
+								1.9791451692581177
+							],
+							"matrix": [
+								109.92239379882812,
+								0,
+								0,
+								0,
+								0,
+								0.0000026701986826083157,
+								-78.01087188720703,
+								0,
+								0,
+								1.9791450500488281,
+								6.774325100877832e-8,
+								0,
+								20.190000534057617,
+								0,
+								603.0679931640625,
+								1
+							]
+						}
+					],
+					[
+						"Sprite",
+						{
+							"enabled": true,
+							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"blend_mode": 3,
+							"frame": null,
+							"flip_x": false,
+							"filtering": true,
+							"size": [
+								100,
+								100
+							],
+							"area": [
+								0,
+								0,
+								1,
+								1
+							],
+							"atlas": null,
+							"uid": "@COMP-6c3ed4-1dbd6f-1e994ff-bf",
+							"object_class": "Sprite"
+						}
+					]
+				]
+			}
+		],
+		"components": [
+			[
+				"GlobalInfo",
+				{
+					"ambient_color": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"irradiance_color": [
+						1,
+						1,
+						1
+					],
+					"irradiance": null,
+					"textures": {},
+					"render_settings": null,
+					"uid": "@COMP-6c3ed4-346d4-1f5bb94-1d",
+					"object_class": "GlobalInfo"
+				}
+			],
+			[
+				"Camera",
+				{
+					"object_class": "Camera",
+					"uid": "@COMP-6c3ed4-346d4-1eb0760-1e",
+					"layers": 3,
+					"enabled": true,
+					"type": 1,
+					"eye": [
+						0,
+						62.224998474121094,
+						2944.231689453125
+					],
+					"center": [
+						5.4242143630981445,
+						1105.2530517578125,
+						706.3408203125
+					],
+					"up": [
+						0,
+						1,
+						0
+					],
+					"near": 0.1,
+					"far": 16615,
+					"fov": 45,
+					"aspect": 1,
+					"orthographic": [
+						-1,
+						1,
+						-1,
+						1
+					],
+					"background_color": [
+						0,
+						0,
+						0,
+						1
+					],
+					"frustum_size": 50,
+					"viewport": [
+						0,
+						0,
+						1,
+						1
+					],
+					"render_to_texture": false,
+					"frame": null,
+					"show_frame": true,
+					"clear_color": true,
+					"clear_depth": true
+				}
+			],
+			[
+				"Light",
+				{
+					"enabled": true,
+					"illuminated_layers": 255,
+					"near": 1,
+					"far": 500,
+					"angle": 45,
+					"angle_end": 60,
+					"constant_diffuse": false,
+					"use_specular": true,
+					"att_start": 0,
+					"att_end": 11775.16,
+					"attenuation_type": 2,
+					"offset": 0,
+					"projective_texture": null,
+					"use_target": false,
+					"intensity": 2,
+					"frustum_size": 50,
+					"extra_texture": null,
+					"type": 2,
+					"position": [
+						-23.386999130249023,
+						421.98907470703125,
+						1088.8270263671875
+					],
+					"target": [
+						-0.6259999871253967,
+						531.2979736328125,
+						438.53900146484375
+					],
+					"extra": [
+						0,
+						0,
+						0,
+						0
+					],
+					"up": [
+						0,
+						1,
+						0
+					],
+					"color": [
+						0.3700000047683716,
+						0.3700000047683716,
+						0.3700000047683716
+					],
+					"spot_cone": true,
+					"cast_shadows": false,
+					"uid": "@COMP-6c3ed4-346d4-1e981b3-1f",
+					"object_class": "Light"
+				}
+			],
+			[
+				"CameraController",
+				{
+					"enabled": true,
+					"no_button_action": 0,
+					"left_button_action": 5,
+					"right_button_action": 10,
+					"middle_button_action": 10,
+					"mouse_wheel_action": 0,
+					"keyboard_walk": true,
+					"keyboard_walk_plane": true,
+					"lock_mouse": true,
+					"rot_speed": 1,
+					"walk_speed": 10,
+					"wheel_speed": 1,
+					"smooth": true,
+					"render_crosshair": false,
+					"uid": "@COMP-6c3ed4-cd92a-1a633bc-37",
+					"object_class": "CameraController"
+				}
+			]
+		]
+	},
+	"layer_names": [
+		"main",
+		"secondary"
+	],
+	"global_scripts": [],
+	"external_scripts": [],
+	"preloaded_resources": {},
+	"texture_atlas": null,
+	"local_resources": {}
+}
