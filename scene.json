@@ -942,7 +942,7 @@
 				"CameraController",
 				{
 					"enabled": true,
-					"no_button_action": 0,
+					"no_button_action": 5,
 					"left_button_action": 5,
 					"right_button_action": 10,
 					"middle_button_action": 10,
