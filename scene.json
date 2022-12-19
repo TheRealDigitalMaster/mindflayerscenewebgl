@@ -276,8 +276,8 @@
 				"object_class": "MeshRenderer",
 				"enabled": true,
 				"uid": "@COMP-6c3ed4-3698c-1c26d54-23",
-				"mesh": "mind_flayer.obj.wbin",
-				"lod_mesh": "mind_flayer.obj.wbin",
+				"mesh": "mind_flayer.obj",
+				"lod_mesh": "mind_flayer.obj",
 				"submaterials": []
 			}
 		]
