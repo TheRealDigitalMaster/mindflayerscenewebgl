@@ -107,7 +107,7 @@
 		],
 		"textures": {
 			"color": {
-				"texture": "texture_917.png",
+				"texture": "Main/texture_917.png",
 				"uvs": 0,
 				"wrap": 0,
 				"minFilter": 0,
@@ -276,8 +276,8 @@
 				"object_class": "MeshRenderer",
 				"enabled": true,
 				"uid": "@COMP-6c3ed4-3698c-1c26d54-23",
-				"mesh": "mind_flayer.obj.wbin",
-				"lod_mesh": "mind_flayer.obj.wbin",
+				"mesh": "Main/mind_flayer.obj.wbin",
+				"lod_mesh": "Main/mind_flayer.obj.wbin",
 				"submaterials": []
 			}
 		]
