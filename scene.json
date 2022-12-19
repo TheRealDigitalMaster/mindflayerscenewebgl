@@ -3,6 +3,78 @@
 	"uid": "@TREE-6c3ed4-6d4-1c4147d-2",
 	"object_class": "Scene",
 	"external_repository": null,
+	"extra": {
+		"editor": {
+			"selected_node": "@NODE-6c3ed4-346d4-1032b92-1c"
+		},
+		"viewport_layout": {
+			"mode": 1,
+			"viewports": [
+				{
+					"name": "perspective",
+					"viewport": [
+						0,
+						0,
+						1,
+						1
+					],
+					"render_settings": null,
+					"editor_camera": {
+						"object_class": "Camera",
+						"uid": "@CAM6c3ed4-a78-12c9e46-9",
+						"layers": 255,
+						"enabled": true,
+						"type": 1,
+						"eye": [
+							-1323.7969970703125,
+							1878.808349609375,
+							4089.32958984375
+						],
+						"center": [
+							39.9995002746582,
+							15.322808265686035,
+							603.0675659179688
+						],
+						"up": [
+							0,
+							1,
+							0
+						],
+						"near": 0.1,
+						"far": 10000,
+						"fov": 45,
+						"aspect": 1,
+						"orthographic": [
+							-1,
+							1,
+							-1,
+							1
+						],
+						"background_color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"frustum_size": 50,
+						"viewport": [
+							0,
+							0,
+							1,
+							1
+						],
+						"render_to_texture": false,
+						"frame": null,
+						"show_frame": true,
+						"clear_color": true,
+						"clear_depth": true
+					},
+					"scene_camera": null
+				}
+			]
+		},
+		"name": "mindflayerscene"
+	},
 	"root": {
 		"object_class": "SceneNode",
 		"name": "root",
@@ -22,6 +94,17 @@
 				"layers": 3,
 				"material": {
 					"uid": "@MAT-6c3ed4-6acf0-198c20f-29",
+					"uvs_matrix": [
+						1,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1
+					],
 					"textures": {
 						"color": {
 							"texture": "texture_917.png",
@@ -34,6 +117,18 @@
 							"index": 0
 						}
 					},
+					"flags": {
+						"alpha_test": false,
+						"alpha_test_shadows": false,
+						"two_sided": false,
+						"flip_normals": false,
+						"depth_test": true,
+						"depth_write": true,
+						"ignore_lights": false,
+						"cast_shadows": true,
+						"receive_shadows": true,
+						"ignore_frustum": false
+					},
 					"color": [
 						0,
 						0,
@@ -41,6 +136,37 @@
 					],
 					"opacity": 1,
 					"queue": -1,
+					"render_state": {
+						"front_face": 2305,
+						"cull_face": true,
+						"cull_face_mode": 0,
+						"depth_test": true,
+						"depth_mask": true,
+						"depth_func": 513,
+						"depth_range": [
+							0,
+							0
+						],
+						"blend": false,
+						"blendFunc0": 770,
+						"blendFunc1": 771,
+						"colorMask0": true,
+						"colorMask1": true,
+						"colorMask2": true,
+						"colorMask3": true,
+						"stencil_test": false,
+						"stencil_mask": 255,
+						"skip_blend": false,
+						"skip_depth": false,
+						"skip_stencil": false,
+						"stencil_func_func": 519,
+						"stencil_func_ref": 0,
+						"stencil_func_mask": 255,
+						"stencil_op_sfail": 7680,
+						"stencil_op_dpfail": 7680,
+						"stencil_op_dppass": 7680,
+						"flags": 0
+					},
 					"blend_mode": 2,
 					"diffuse": [
 						1,
@@ -123,6 +249,24 @@
 								54.860870361328125,
 								50.22234344482422,
 								63.99769592285156
+							],
+							"matrix": [
+								54.860870361328125,
+								0,
+								0,
+								0,
+								0,
+								50.22234344482422,
+								0,
+								0,
+								0,
+								0,
+								63.99769592285156,
+								0,
+								0,
+								0,
+								0,
+								1
 							]
 						}
 					],
@@ -171,6 +315,24 @@
 								109.92239379882812,
 								78.01087951660156,
 								1.9791451692581177
+							],
+							"matrix": [
+								109.92239379882812,
+								0,
+								0,
+								0,
+								0,
+								0.0000026701986826083157,
+								-78.01087188720703,
+								0,
+								0,
+								1.9791450500488281,
+								6.774325100877832e-8,
+								0,
+								20.190000534057617,
+								3781.468017578125,
+								603.0680541992188,
+								1
 							]
 						}
 					],
@@ -178,7 +340,7 @@
 						"Sprite",
 						{
 							"enabled": true,
-							"texture": "04-_web_stories_portal_cm_materia_stranger_things_03.06.jpg",
+							"texture": "Main/04-_web_stories_portal_cm_materia_stranger_things_03.06.jpg",
 							"blend_mode": 3,
 							"frame": null,
 							"flip_x": false,
@@ -285,6 +447,24 @@
 								116.36333465576172,
 								46.04878616333008,
 								2.0387609004974365
+							],
+							"matrix": [
+								116.36333465576172,
+								0,
+								0,
+								0,
+								0,
+								46.04878616333008,
+								0,
+								0,
+								0,
+								0,
+								2.0387609004974365,
+								0,
+								39.9995002746582,
+								1867.96142578125,
+								4531.70849609375,
+								1
 							]
 						}
 					],
@@ -292,7 +472,7 @@
 						"Sprite",
 						{
 							"enabled": true,
-							"texture": "f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
+							"texture": "Main/f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
 							"blend_mode": 3,
 							"frame": null,
 							"flip_x": false,
@@ -346,6 +526,24 @@
 								116.36333465576172,
 								46.04878616333008,
 								2.0387609004974365
+							],
+							"matrix": [
+								0.000003982947418990079,
+								0,
+								-116.36332702636719,
+								0,
+								0,
+								46.04878616333008,
+								0,
+								0,
+								2.0387606620788574,
+								0,
+								6.97838160590436e-8,
+								0,
+								5126.0478515625,
+								1867.96142578125,
+								2184.32470703125,
+								1
 							]
 						}
 					],
@@ -353,7 +551,7 @@
 						"Sprite",
 						{
 							"enabled": true,
-							"texture": "f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
+							"texture": "Main/f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
 							"blend_mode": 3,
 							"frame": null,
 							"flip_x": false,
@@ -407,6 +605,24 @@
 								116.36333465576172,
 								46.04878616333008,
 								2.0387609004974365
+							],
+							"matrix": [
+								116.36333465576172,
+								0,
+								0,
+								0,
+								0,
+								46.04878616333008,
+								0,
+								0,
+								0,
+								0,
+								2.0387609004974365,
+								0,
+								39.9995002746582,
+								1867.96142578125,
+								-1962.4970703125,
+								1
 							]
 						}
 					],
@@ -414,7 +630,7 @@
 						"Sprite",
 						{
 							"enabled": true,
-							"texture": "f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
+							"texture": "Main/f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
 							"blend_mode": 3,
 							"frame": null,
 							"flip_x": false,
@@ -468,6 +684,24 @@
 								116.36333465576172,
 								46.04878616333008,
 								2.0387609004974365
+							],
+							"matrix": [
+								0.000003982947418990079,
+								0,
+								-116.36332702636719,
+								0,
+								0,
+								46.04878616333008,
+								0,
+								0,
+								2.0387606620788574,
+								0,
+								6.97838160590436e-8,
+								0,
+								-2832.60107421875,
+								1867.96142578125,
+								2184.32470703125,
+								1
 							]
 						}
 					],
@@ -475,7 +709,7 @@
 						"Sprite",
 						{
 							"enabled": true,
-							"texture": "f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
+							"texture": "Main/f86273e2665b3762f872e001c556d84524d4cbf1r1-500-223v2_hq.jpg",
 							"blend_mode": 3,
 							"frame": null,
 							"flip_x": false,
@@ -529,6 +763,24 @@
 								109.92239379882812,
 								78.01087951660156,
 								1.9791451692581177
+							],
+							"matrix": [
+								109.92239379882812,
+								0,
+								0,
+								0,
+								0,
+								0.0000026701986826083157,
+								-78.01087188720703,
+								0,
+								0,
+								1.9791450500488281,
+								6.774325100877832e-8,
+								0,
+								20.190000534057617,
+								0,
+								603.0679931640625,
+								1
 							]
 						}
 					],
