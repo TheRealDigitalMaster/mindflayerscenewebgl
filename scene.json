@@ -788,7 +788,7 @@
 						"Sprite",
 						{
 							"enabled": true,
-							"texture": "360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
+							"texture": "Main/360_f_242339385_5ukgrwzbgvlsjjisgmysqeztqq1j6pt2.jpg",
 							"blend_mode": 3,
 							"frame": null,
 							"flip_x": false,
