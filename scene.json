@@ -88,201 +88,201 @@
 		},
 		"children": [
 			{
-				"object_class": "SceneNode",
-				"name": "mind_flayer",
-				"uid": "@NODE-6c3ed4-3698a-10de36d-20",
-				"layers": 3,
-				"material": {
-					"uid": "@MAT-6c3ed4-6acf0-198c20f-29",
-					"uvs_matrix": [
-						1,
-						0,
-						0,
-						0,
-						1,
-						0,
-						0,
-						0,
-						1
-					],
-					"textures": {
-						"color": {
-							"texture": "texture_917.png",
-							"uvs": 0,
-							"wrap": 0,
-							"minFilter": 0,
-							"magFilter": 0,
-							"missing": "white",
-							"_must_update": true,
-							"index": 0
-						}
-					},
-					"flags": {
-						"alpha_test": false,
-						"alpha_test_shadows": false,
-						"two_sided": false,
-						"flip_normals": false,
-						"depth_test": true,
-						"depth_write": true,
-						"ignore_lights": false,
-						"cast_shadows": true,
-						"receive_shadows": true,
-						"ignore_frustum": false
-					},
-					"color": [
-						0,
-						0,
-						0
-					],
-					"opacity": 1,
-					"queue": -1,
-					"render_state": {
-						"front_face": 2305,
-						"cull_face": true,
-						"cull_face_mode": 0,
-						"depth_test": true,
-						"depth_mask": true,
-						"depth_func": 513,
-						"depth_range": [
-							0,
-							0
-						],
-						"blend": false,
-						"blendFunc0": 770,
-						"blendFunc1": 771,
-						"colorMask0": true,
-						"colorMask1": true,
-						"colorMask2": true,
-						"colorMask3": true,
-						"stencil_test": false,
-						"stencil_mask": 255,
-						"skip_blend": false,
-						"skip_depth": false,
-						"skip_stencil": false,
-						"stencil_func_func": 519,
-						"stencil_func_ref": 0,
-						"stencil_func_mask": 255,
-						"stencil_op_sfail": 7680,
-						"stencil_op_dpfail": 7680,
-						"stencil_op_dppass": 7680,
-						"flags": 0
-					},
-					"blend_mode": 2,
-					"diffuse": [
-						1,
-						1,
-						1
-					],
-					"ambient": [
-						1,
-						1,
-						1
-					],
-					"emissive": [
-						0.10999999940395355,
-						0.10999999940395355,
-						0.10999999940395355,
-						0
-					],
-					"specular_on_top": false,
-					"specular_on_alpha": false,
-					"backlight_factor": 0,
-					"translucency": 0,
-					"reflection_factor": 1,
-					"reflection_fresnel": 0.5962793969093103,
-					"reflection_specular": false,
-					"velvet": [
-						0.5,
-						0.5,
-						0.5
-					],
-					"velvet_exp": 0,
-					"velvet_additive": false,
-					"normalmap_factor": 1,
-					"normalmap_tangent": true,
-					"bumpmap_factor": 1,
-					"displacementmap_factor": 0.1,
-					"use_scene_ambient": true,
-					"point_size": 1,
-					"extra": [
-						0.3100000023841858,
-						0.03099999949336052,
-						0.03099999949336052,
-						1
-					],
-					"needsUpdate": true,
-					"detail_factor": 0,
-					"detail_scale": [
-						10,
-						10
-					],
-					"emissive_extra": 0,
-					"specular_factor": 0.2948530614376068,
-					"specular_gloss": 20,
-					"renderShadowInstance": null,
-					"material_class": "StandardMaterial"
-				},
-				"flags": {
-					"visible": true,
-					"is_static": false,
-					"selectable": true,
-					"locked": false
-				},
-				"components": [
-					[
-						"Transform",
-						{
-							"object_class": "Transform",
-							"uid": "@COMP-6c3ed4-3698b-157cfa8-21",
-							"position": [
-								0,
-								0,
-								0
-							],
-							"rotation": [
-								0,
-								0,
-								0,
-								1
-							],
-							"scaling": [
-								54.860870361328125,
-								50.22234344482422,
-								63.99769592285156
-							],
-							"matrix": [
-								54.860870361328125,
-								0,
-								0,
-								0,
-								0,
-								50.22234344482422,
-								0,
-								0,
-								0,
-								0,
-								63.99769592285156,
-								0,
-								0,
-								0,
-								0,
-								1
-							]
-						}
-					],
-					[
-						"MeshRenderer",
-						{
-							"object_class": "MeshRenderer",
-							"enabled": true,
-							"uid": "@COMP-6c3ed4-3698c-1c26d54-23",
-							"mesh": "mind_flayer.obj.wbin",
-							"lod_mesh": "mind_flayer.obj.wbin",
-							"submaterials": []
-						}
-					]
+	"object_class": "SceneNode",
+	"name": "node_1",
+	"uid": "@NODE-6c3ed4-3698a-10de36d-20",
+	"layers": 3,
+	"material": {
+		"uid": "@MAT-6c3ed4-6acf0-198c20f-29",
+		"uvs_matrix": [
+			1,
+			0,
+			0,
+			0,
+			1,
+			0,
+			0,
+			0,
+			1
+		],
+		"textures": {
+			"color": {
+				"texture": "texture_917.png",
+				"uvs": 0,
+				"wrap": 0,
+				"minFilter": 0,
+				"magFilter": 0,
+				"missing": "white",
+				"_must_update": true,
+				"index": 0
+			}
+		},
+		"flags": {
+			"alpha_test": false,
+			"alpha_test_shadows": false,
+			"two_sided": false,
+			"flip_normals": false,
+			"depth_test": true,
+			"depth_write": true,
+			"ignore_lights": false,
+			"cast_shadows": true,
+			"receive_shadows": true,
+			"ignore_frustum": false
+		},
+		"color": [
+			0,
+			0,
+			0
+		],
+		"opacity": 1,
+		"queue": -1,
+		"render_state": {
+			"front_face": 2305,
+			"cull_face": true,
+			"cull_face_mode": 0,
+			"depth_test": true,
+			"depth_mask": true,
+			"depth_func": 513,
+			"depth_range": [
+				0,
+				0
+			],
+			"blend": false,
+			"blendFunc0": 770,
+			"blendFunc1": 771,
+			"colorMask0": true,
+			"colorMask1": true,
+			"colorMask2": true,
+			"colorMask3": true,
+			"stencil_test": false,
+			"stencil_mask": 255,
+			"skip_blend": false,
+			"skip_depth": false,
+			"skip_stencil": false,
+			"stencil_func_func": 519,
+			"stencil_func_ref": 0,
+			"stencil_func_mask": 255,
+			"stencil_op_sfail": 7680,
+			"stencil_op_dpfail": 7680,
+			"stencil_op_dppass": 7680,
+			"flags": 0
+		},
+		"blend_mode": 2,
+		"diffuse": [
+			1,
+			1,
+			1
+		],
+		"ambient": [
+			1,
+			1,
+			1
+		],
+		"emissive": [
+			0.10999999940395355,
+			0.10999999940395355,
+			0.10999999940395355,
+			0
+		],
+		"specular_on_top": false,
+		"specular_on_alpha": false,
+		"backlight_factor": 0,
+		"translucency": 0,
+		"reflection_factor": 1,
+		"reflection_fresnel": 0.5962793969093103,
+		"reflection_specular": false,
+		"velvet": [
+			0.5,
+			0.5,
+			0.5
+		],
+		"velvet_exp": 0,
+		"velvet_additive": false,
+		"normalmap_factor": 1,
+		"normalmap_tangent": true,
+		"bumpmap_factor": 1,
+		"displacementmap_factor": 0.1,
+		"use_scene_ambient": true,
+		"point_size": 1,
+		"extra": [
+			0.3100000023841858,
+			0.03099999949336052,
+			0.03099999949336052,
+			1
+		],
+		"needsUpdate": true,
+		"detail_factor": 0,
+		"detail_scale": [
+			10,
+			10
+		],
+		"emissive_extra": 0,
+		"specular_factor": 0.2948530614376068,
+		"specular_gloss": 20,
+		"renderShadowInstance": null,
+		"material_class": "StandardMaterial"
+	},
+	"flags": {
+		"visible": true,
+		"is_static": false,
+		"selectable": true,
+		"locked": false
+	},
+	"components": [
+		[
+			"Transform",
+			{
+				"object_class": "Transform",
+				"uid": "@COMP-6c3ed4-3698b-157cfa8-21",
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0,
+					1
+				],
+				"scaling": [
+					54.860870361328125,
+					50.22234344482422,
+					63.99769592285156
+				],
+				"matrix": [
+					54.860870361328125,
+					0,
+					0,
+					0,
+					0,
+					50.22234344482422,
+					0,
+					0,
+					0,
+					0,
+					63.99769592285156,
+					0,
+					0,
+					0,
+					0,
+					1
 				]
-			},
+			}
+		],
+		[
+			"MeshRenderer",
+			{
+				"object_class": "MeshRenderer",
+				"enabled": true,
+				"uid": "@COMP-6c3ed4-3698c-1c26d54-23",
+				"mesh": "mind_flayer.obj.wbin",
+				"lod_mesh": "mind_flayer.obj.wbin",
+				"submaterials": []
+			}
+		]
+	]
+},
 			{
 				"object_class": "SceneNode",
 				"name": "node_2",
